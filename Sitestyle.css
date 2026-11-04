@@ -17,6 +17,9 @@ h1{
     background-color: purple;
     text-align: center;
     font-size: 150%;
+    border: 2px solid black;
+    margin: 0%;
+    border-radius: 10px;
 }
 #main_img{
     width: 100%;
@@ -63,3 +66,14 @@ textarea{
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: white;}
 .dropdown:hover .dropbtn {color: black;}
+
+details ul {
+  color: yellowgreen;
+}
+
+#background {
+  background-image: url('https://images.unsplash.com/photo-1667419674923-9eef9f86c628?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: 600px 400px;
+  background-position: center;
+  background-repeat: repeat;
+}
