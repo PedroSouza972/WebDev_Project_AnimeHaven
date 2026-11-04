@@ -23,6 +23,7 @@ h1{
     height: 350px;
     object-position: center;
     display: block;
+    object-fit: cover;
 }
 textarea{
     width: 300px;
