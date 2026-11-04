@@ -32,15 +32,16 @@ textarea{
     margin: 0 auto;
 }
 .btn{
-    color: black;
+    color: white;
     background-color: purple;
 }
 .dropbtn {
   background-color: purple;
-  color: black;
+  color: white;
   border: none;
   position: right;
 }
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -60,3 +61,4 @@ textarea{
 .dropdown-content a:hover {background-color: #ddd;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: white;}
+.dropdown:hover .dropbtn {color: black;}
