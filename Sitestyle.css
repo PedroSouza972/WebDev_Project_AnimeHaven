@@ -68,7 +68,10 @@ textarea{
 .dropdown:hover .dropbtn {color: black;}
 
 details ul {
-  color: yellowgreen;
+  color: yellow;
+  margin-right: 70%;
+  margin-left: 20px;
+  background-color: purple;
 }
 
 #background {
@@ -76,4 +79,5 @@ details ul {
   background-size: 600px 400px;
   background-position: center;
   background-repeat: repeat;
+  
 }
