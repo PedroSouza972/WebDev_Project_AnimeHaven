@@ -68,16 +68,32 @@ textarea{
 .dropdown:hover .dropbtn {color: black;}
 
 details ul {
-  color: yellow;
+  color: rgb(187, 231, 99);
   margin-right: 70%;
   margin-left: 20px;
-  background-color: purple;
 }
 
-#background {
-  background-image: url('https://images.unsplash.com/photo-1667419674923-9eef9f86c628?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-  background-size: 600px 400px;
+.background {
+  position: relative; 
+  z-index: 1;         
+}
+
+
+.background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;        
+  background-image: url('https://images.unsplash.com/photo-1699443817739-cf2f7cbcd18d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+  background-size: cover;
   background-position: center;
-  background-repeat: repeat;
-  
+  background-attachment: fixed; 
+  opacity: 0.5;       
+}
+
+.credits {
+  font-size: 12px;
 }
